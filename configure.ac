@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.59])
-AC_INIT([eclipse],[1.0.3],snmsts@gmail.com)
+AC_INIT([eclipse],[1.1],snmsts@gmail.com)
 
 AM_CONFIG_HEADER(config.h)
 AC_CONFIG_FILES([c/Makefile Makefile])

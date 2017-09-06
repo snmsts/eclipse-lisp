@@ -1,6 +1,6 @@
-bin_PROGRAMS = eclipse
-eclipse_SOURCES = eclipse.c
-eclipse_LDADD = libeclipse.a libeclipsed.a
+bin_PROGRAMS = eclisp
+eclisp_SOURCES = eclipse.c
+eclisp_LDADD = libeclipse.a libeclipsed.a
 
 sources = interface.c common.c parameters.c mop-init.c kernel.c		\
 types-run.c control-run.c symbol.c classes.c clos-run.c clos-define.c	\

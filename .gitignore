@@ -3,7 +3,7 @@
 *~
 *.bak
 *.a
-c/eclipse
+c/eclisp
 .deps
 Makefile
 Makefile.in

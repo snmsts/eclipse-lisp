@@ -65,7 +65,8 @@
 #ifndef cl_ECLIPSE
 
 #define cl_ECLIPSE
-#define clEclipseVersion() "1.1"
+#include "config.h"
+#define clEclipseVersion() PACKAGE_VERSION
 
 #if (defined sun)
 #  if (defined __SVR4) 
